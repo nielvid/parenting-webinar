@@ -7,14 +7,14 @@ import Banner from '../../assets/images/banner.jpeg'
 function Home() {
 	return (
 		<Box my='2rem' >
-		<Box textAlign='center' px={{ base: '5%', lg: '4%' }} bg='white' maxW={{base:'100%', lg:'50%'}} mx='auto'>
-			<Heading fontSize={{base: '3rem', md:'6rem', lg:'5rem'}} mb='2rem' color='#CC0000' fontWeight='900'> Are you worried about your child’s safety<br/> online &amp; on Social media?</Heading>
+		<Box textAlign='center' px={{ base: '5%', lg: '4%' }} bg='white' maxW={{base:'100%',md:'80%', lg:'50%'}} mx='auto'>
+			<Heading fontSize={{base: '3rem', md:'4rem', lg:'5rem'}} mb='2rem' color='#CC0000' fontWeight='900'> Are you worried about your child’s safety<br/> online &amp; on Social media?</Heading>
 			</Box>
 			<Box>
-			<Box textAlign='center'  maxW={{base:'100%', lg:'50%'}} mx='auto' >
+			<Box textAlign='center'  maxW={{base:'100%', md:'80%', lg:'50%'}} mx='auto' >
 				<Image src={Banner} alt='phil Ikponmwosa ' w='100%' objectFit='contain' />
 			</Box>
-			<Box  bg='white' fontSize='1.8rem'textAlign='justify'maxW={{base:'100%', lg:'50%'}}  mx='auto' py='3rem' px={{base:'3rem', lg:'6rem'}} border="2px solid rgba(68,85,103,.11)"
+			<Box  bg='white' fontSize='1.8rem'textAlign='justify'maxW={{base:'100%',md:'80%', lg:'50%'}}  mx='auto' py='3rem' px={{base:'3rem', lg:'6rem'}} border="2px solid rgba(68,85,103,.11)"
 			boxShadow='3px 3px 3px -2px #000'>
 				<Heading fontSize={{base: '1.8rem', md:'2rem', lg:'2rem'}} mb='3rem' py='2rem'>Here is what you can do…</Heading>
 				<Text lineHeight={1.4} mb='1rem'> "As a busy mom, I felt like I was losing the battle of keeping my kids safe and
@@ -109,8 +109,8 @@ and responsibly.</Text>
 	<Text lineHeight='2.5rem' mb='1rem' fontStyle='italic'><b>Guess what is the investment fee for this webinar?</b></Text>
 <Heading fontWeight='700'>It’s a token of N1,000 (one thousand naira).</Heading>
 
-	<Box bg='#CC0000' borderBottomLeftRadius='15px' borderBottomRightRadius='15px' h='50px' py='1.5rem'>
-		<Heading color='white' fontWeight='900' _hover={{color: 'yellow'}}> <Link to='https://selar.co/3wfg' className='s_click'> Click here to sign up now.</Link></Heading>
+	<Box bg='#CC0000' borderBottomLeftRadius='15px' borderBottomRightRadius='15px' h='100px' py='2rem'>
+		<Heading color='white' fontWeight='900' fontSize={{base:'2.8rem', lg: '3.2rem'}} _hover={{color: 'yellow'}} mb='1.5rem'> <Link to='https://selar.co/3wfg' className='s_click'> Click here <br />to sign up now.</Link></Heading>
 	</Box>
 
 	
@@ -174,7 +174,7 @@ now.</Text>
 	<Heading w='90%' m='3rem auto' color='#CC0000' fontWeight='900' fontSize={{base:'2rem', lg: '4rem'}}> <Link to='https://selar.co/3wfg'>Click here now to be one of the participants of this transformative training.</Link></Heading>
 </Box>
 
-<Text lineHeight='2.5rem' mb='1rem'>See you in class!</Text>
+<Text lineHeight='2.5rem' mb='1rem' fontStyle='italic'>See you in class!</Text>
 <Text>I am <b>Phil Ikponmwosa</b></Text>
 			</Box>
 		</Box>
