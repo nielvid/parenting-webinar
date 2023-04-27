@@ -1,0 +1,1 @@
+export const Fast = `Stay safe, no need to go outside. Pay the bills that need paying from the comfort of your sofa and make your days a whole lot smoother with AirtimeFlip Bill Payments options.`
