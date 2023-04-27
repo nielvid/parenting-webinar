@@ -5,24 +5,19 @@ import Banner from '../../assets/images/banner.jpeg'
 
 
 function Home() {
-	// const navigate = useNavigate();
-
-//   const navigateToSignup = () => {
-//     navigate('/signup');
-//   };
 	return (
 		<Box my='2rem' >
-		<Box textAlign='center' px={{ base: '5%', lg: '4%' }} bg='white'>
+		<Box textAlign='center' px={{ base: '5%', lg: '4%' }} bg='white' maxW={{base:'100%', lg:'50%'}} mx='auto'>
 			<Heading fontSize={{base: '3rem', md:'6rem', lg:'5rem'}} mb='2rem' color='#CC0000' fontWeight='900'> Are you worried about your child’s safety<br/> online &amp; on Social media?</Heading>
 			</Box>
 			<Box>
-			<Box textAlign='center'  maxW={{base:'100%', lg:'80%'}} mx='auto' >
-				<Image src={Banner} alt='ajaj' w='100%' objectFit='contain' />
+			<Box textAlign='center'  maxW={{base:'100%', lg:'50%'}} mx='auto' >
+				<Image src={Banner} alt='phil Ikponmwosa ' w='100%' objectFit='contain' />
 			</Box>
-			<Box  bg='white' fontSize='1.8rem'textAlign='justify'maxW={{base:'100%', lg:'80%'}}  mx='auto' py='3rem' px={{base:'2rem', lg:'6rem'}} borderBottom="1px solid rgba(68,85,103,.11)"
+			<Box  bg='white' fontSize='1.8rem'textAlign='justify'maxW={{base:'100%', lg:'50%'}}  mx='auto' py='3rem' px={{base:'3rem', lg:'6rem'}} border="2px solid rgba(68,85,103,.11)"
 			boxShadow='3px 3px 3px -2px #000'>
 				<Heading fontSize={{base: '1.8rem', md:'2rem', lg:'2rem'}} mb='3rem' py='2rem'>Here is what you can do…</Heading>
-				<Text lineHeight='2.5rem' mb='1rem'> As a busy mom, I felt like I was losing the battle of keeping my kids safe and
+				<Text lineHeight={1.4} mb='1rem'> "As a busy mom, I felt like I was losing the battle of keeping my kids safe and
 healthy in the digital world.
 I felt like I was constantly struggling to keep up with the fast-paced world of social
 media.</Text>
@@ -44,8 +39,8 @@ the age of Social Media.</b></Text>
 <Text lineHeight='2.5rem' mb='1rem'>Beyond everything I learnt, the concept of digital footprint was it for me.</Text>
 
 <Text lineHeight='2.5rem' mb='1rem'>Today, my fear and anxiety about my child’s safety online are gone. And I can
-confidently say that I am now a digital parent, raising responsible digital citizens.
-<b>Betty G. A</b>.</Text>
+confidently say that I am now a digital parent, raising responsible digital citizens."
+<b> - Betty G. A</b>.</Text>
 <Text lineHeight='2.5rem' mb='1rem' >
 Are you worried about your child’s safety online or on social media? Are you
 struggling with managing your child’s screen time? Are you bothered that your
@@ -149,17 +144,22 @@ vampires that are waiting to prey on them, then sign up for the course now.</Tex
 <Heading my='2rem'>Caution:</Heading>
 <Text lineHeight='2.5rem' mb='1rem'><b>Please understand that this course is not for you if:</b></Text>
 <Box border='5px solid #fff9dd' bg='#FFFFE0' mx='-2rem' px='3rem' mb='2rem'>
-	<UnorderedList my='2rem'>
+	<UnorderedList my='2rem' listStyleType='square'>
 
 <b>
-				<ListItem mb='1rem'>You are a parent with closed mind; not open to learning, unlearning, and
+				<ListItem mb='1rem' >You are a parent with closed mind; not open to learning, unlearning, and
 relearning</ListItem>
+<hr style={{height: '10px'}} />
 		<ListItem mb='1rem'>You are a parent that don’t believe in technology</ListItem>
+		<hr />
 		<ListItem mb='1rem'>You are a parent that don’t believe social media has its gains</ListItem>
+		<hr />
 		<ListItem mb='1rem'>You are a parent that prefers to control a child instead of building
 relationship with the child.</ListItem>
+<hr />
 <ListItem mb='1rem'>You are a parent that is not willing or ready to model the behavior you want
 your child to exhibit.</ListItem>
+<hr />
 <ListItem>You are a parent that wants overnight success…</ListItem>
 </b>
 	
