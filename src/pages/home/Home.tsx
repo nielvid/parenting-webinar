@@ -1,18 +1,20 @@
 import { Box, Heading, Image, Text, UnorderedList, ListItem, } from '@chakra-ui/react'
 import { Link} from 'react-router-dom';
 import Banner from '../../assets/images/child.jpeg'
+import caution from '../../assets/images/caution.png'
 
 
 
 function Home() {
 	return (
 		<Box my='2rem' >
-		<Box textAlign='center' px={{ base: '5%', lg: '4%' }} bg='white' maxW={{base:'100%',md:'80%', lg:'50%'}} mx='auto'>
-			<Heading fontSize={{base: '2.7rem', md:'3.5rem', lg:'4.5rem'}} mb='2rem' color='#95a014' fontWeight='900'>How I Became a Digital Parent….raising happy, healthy, and responsible digital children.</Heading>
-			</Box>
+		
 			<Box>
 			<Box textAlign='center'  maxW={{base:'100%', md:'80%', lg:'50%'}} mx='auto' >
 				<Image src={Banner} alt='phil Ikponmwosa ' w='100%' objectFit='contain' />
+			</Box>
+			<Box textAlign='center' px={{ base: '5%', lg: '4%' }} bg='white' maxW={{base:'100%',md:'80%', lg:'50%'}} mx='auto'>
+			<Heading fontSize={{base: '2.7rem', md:'3.5rem', lg:'4.5rem'}} color='#95a014' fontWeight='900' py='3rem'>How I Became a Digital Parent….raising happy, healthy, and responsible digital children.</Heading>
 			</Box>
 			<Box  bg='white' fontSize='1.8rem'textAlign='justify'maxW={{base:'100%',md:'80%', lg:'50%'}}  mx='auto' py='3rem' px={{base:'3rem', lg:'6rem'}} border="2px solid rgba(68,85,103,.11)"
 			boxShadow='3px 3px 3px -2px #000'>
@@ -140,11 +142,12 @@ training by the cost.</Text>
 <Text lineHeight='2.5rem' mb='1rem'>
 So, if you know that N1,500 cannot be compared with the amount you will pay for
 rehabilitating your child if you lose him or her to social media predators and
-vampires that are waiting to prey on them, then sign up for the course now.</Text>
+vampires that are waiting to prey on them, then <Link to='https://selar.co/3wfg'><span style={{fontWeight:'bolder', color: '#9ACD32', fontSize:'2rem'}}>sign up for the course now.</span></Link></Text>
 
 <Heading my='2rem'>Limited slots available.</Heading>
 
-<Heading my='2rem'>Caution:</Heading>
+{/* <Heading my='2rem'>Caution:</Heading> */}
+<Image src={caution} alt='Caution:' width='50%'/>
 <Text lineHeight='2.5rem' mb='1rem'>Please <b>DON’T REGISTER </b>for this course I<b>IF</b>:</Text>
 <Box border='5px solid #F0FFF0' bg='#F0FFF0' mx='-2rem' px='3rem' mb='2rem'>
 	<UnorderedList my='2rem' listStyleType='square'>
