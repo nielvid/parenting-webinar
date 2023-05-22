@@ -1,7 +1,5 @@
 import { Box, Heading, Image, Text, UnorderedList, ListItem, } from '@chakra-ui/react'
 import { Link} from 'react-router-dom';
-import Banner from '../../assets/images/child.jpeg'
-import caution from '../../assets/images/caution.png'
 
 
 
@@ -11,7 +9,7 @@ function Home() {
 		
 			<Box>
 			<Box textAlign='center'  maxW={{base:'100%',  lg:'60%'}} mx='auto'>
-				<Image src={Banner} alt='phil Ikponmwosa' w='100%' />
+				<Image src='https://cdn.cosmicjs.com/b29ae040-f8ef-11ed-95b9-45823ba39773-child.jpeg' alt='phil Ikponmwosa' w='100%' />
 			</Box>
 			<Box textAlign='center' px={{ base: '5%', lg: '4%' }} bg='white' maxW={{base:'100%', lg:'60%'}} mx='auto'>
 			<Heading fontSize={{base: '2.7rem', md:'3.5rem', lg:'4.5rem'}} color='#95a014' fontWeight='900' py='3rem'>How I Became a Digital Parent….raising happy, healthy, and responsible digital children.</Heading>
@@ -65,8 +63,11 @@ the age of Social Media @ just N1,500</Link></Heading>
 </Box>
 
 
-<Text >Hey, hold it before you log out of this page!</Text>
 
+
+	<Text fontWeight='bold' ><b>Hey, hold it before you log out of this page!</b></Text>
+				{/* <Image src='https://cdn.cosmicjs.com/9bf07fb0-f8f1-11ed-95b9-45823ba39773-wait.jpeg' alt='phil Ikponmwosa' w='70%' /> */}
+		
 <Heading as='h6'  mt=' 4rem' mb='2rem' color="#0f2f3c" >Who am I for you to attend my webinar?</Heading>
 <Text>My name is <b>Phil Ikponmwosa.</b></Text>
 
@@ -155,7 +156,7 @@ vampires that are waiting to prey on them, then <Link to='https://selar.co/3wfg'
 <Heading my='2rem'>Limited slots available.</Heading>
 
 {/* <Heading my='2rem'>Caution:</Heading> */}
-<Image src={caution} alt='Caution:' width='50%'/>
+<Image src='https://cdn.cosmicjs.com/dfe80e00-f8f0-11ed-95b9-45823ba39773-caution.png' alt='Caution:' width='50%'/>
 <Text lineHeight='2.5rem' mb='1rem'>Please <b>DON’T REGISTER </b>for this course I<b>IF</b>:</Text>
 <Box border='5px solid #F0FFF0' bg='#F0FFF0' mx='-2rem' px='3rem' mb='2rem'>
 	<UnorderedList my='2rem' listStyleType='square'>
@@ -214,6 +215,9 @@ now.</Text>
 <Text><b>Phil Ikponmwosa</b></Text>
 			</Box>
 		</Box>
+		<Box bg='#000' color='#fff' py='2rem' fontSize='1.5rem'>
+      <Text textAlign='center' >&copy;2023 Phil Ikponmwosa. All rights reserved</Text>
+    </Box>
 		</Box>
 	)
 }
