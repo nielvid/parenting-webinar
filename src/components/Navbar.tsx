@@ -34,7 +34,7 @@ export default function Navbar() {
 					/> */}
 				</Box>
 				<Box>
-						<Heading color="#0f2f3c"  fontSize={{base:'3rem', lg:'6rem'}} fontWeight='900'><Link to="/">Parenting Webinar</Link></Heading>
+						<Heading color="#808000"  fontSize={{base:'3rem', lg:'6rem'}} fontWeight='900'><Link to="/">Parenting Webinar</Link></Heading>
 				</Box> 
 			</Box>
 

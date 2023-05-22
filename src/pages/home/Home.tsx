@@ -1,6 +1,6 @@
 import { Box, Heading, Image, Text, UnorderedList, ListItem, } from '@chakra-ui/react'
 import { Link} from 'react-router-dom';
-import Banner from '../../assets/images/banner.jpeg'
+import Banner from '../../assets/images/child.jpeg'
 
 
 
@@ -8,7 +8,7 @@ function Home() {
 	return (
 		<Box my='2rem' >
 		<Box textAlign='center' px={{ base: '5%', lg: '4%' }} bg='white' maxW={{base:'100%',md:'80%', lg:'50%'}} mx='auto'>
-			<Heading fontSize={{base: '3rem', md:'4rem', lg:'5rem'}} mb='2rem' color='#CC0000' fontWeight='900'> Are you worried about your child’s safety<br/> online &amp; on Social media?</Heading>
+			<Heading fontSize={{base: '2.7rem', md:'3.5rem', lg:'4.5rem'}} mb='2rem' color='#95a014' fontWeight='900'>How I Became a Digital Parent….raising happy, healthy, and responsible digital children.</Heading>
 			</Box>
 			<Box>
 			<Box textAlign='center'  maxW={{base:'100%', md:'80%', lg:'50%'}} mx='auto' >
@@ -40,21 +40,22 @@ the age of Social Media.</b></Text>
 
 <Text lineHeight='2.5rem' mb='1rem'>Today, my fear and anxiety about my child’s safety online are gone. And I can
 confidently say that I am now a digital parent, raising responsible digital citizens."
-<b> - Betty G. A</b>.</Text>
+<span style={{fontStyle:'italic'}}><b> - Betty G. A</b></span>.</Text>
 <Text lineHeight='2.5rem' mb='1rem' >
 Are you worried about your child’s safety online or on social media? Are you
 struggling with managing your child’s screen time? Are you bothered that your
 child is exposed to inappropriate content online and you don’t know how to help
-them out?</Text>
+him or her out?</Text>
 <Text lineHeight='2.5rem' mb='1rem'>
 Do you mind if I show you how to overcome these your worry, fears, and anxiety
 about your child’s safety in his or her interaction with social media and
 technology? Then sign up for my webinar,</Text>
 
 <Box textAlign='center'>
-	<Heading w='90%' m='3rem auto' color='#CC0000' fontWeight='900' fontSize={{base:'2rem', lg: '4rem'}}> <Link to='https://selar.co/3wfg'>How to Raise Responsible and Resilient Kids in
-the age of Social Media @ just N1,000</Link></Heading>
+	<Heading w='90%' m='3rem auto' color='#95a014' fontWeight='900' fontSize={{base:'2rem', lg: '4rem'}}> <Link to='https://selar.co/3wfg'>How to Raise Responsible and Resilient Kids in
+the age of Social Media @ just N1,500</Link></Heading>
 </Box>
+<Text >Hey, hold it before you log out of this page!</Text>
 
 <Heading as='h6'  mt=' 4rem' mb='2rem' color="#0f2f3c" >Who am I for you to attend my webinar?</Heading>
 <Text>My name is <b>Phil Ikponmwosa.</b></Text>
@@ -105,11 +106,12 @@ an anxious and worried parent raising Generation Z to an informed digital parent
 who is able to help and guide their kids on how to navigate the digital world safely
 and responsibly.</Text>
 
-<Box w={{base:'100%', lg:'80%'}} m='3rem auto' textAlign='center'  >
 	<Text lineHeight='2.5rem' mb='1rem' fontStyle='italic'><b>Guess what is the investment fee for this webinar?</b></Text>
-<Heading fontWeight='700'>It’s a token of N1,000 (one thousand naira).</Heading>
+<Box w={{base:'100%', lg:'80%'}} m='3rem auto' textAlign='center'  >
+<Heading fontWeight='700'>It’s a token of N1,500 </Heading>
+<Text>(one thousand, five hundred naira).</Text>
 
-	<Box bg='#CC0000' borderBottomLeftRadius='15px' borderBottomRightRadius='15px' h='100px' py='2rem'>
+	<Box bg='#95a014' borderBottomLeftRadius='15px' borderBottomRightRadius='15px' h='100px' py='2rem'>
 		<Heading color='white' fontWeight='900' fontSize={{base:'2.8rem', lg: '3.2rem'}} _hover={{color: 'yellow'}} mb='1.5rem'> <Link to='https://selar.co/3wfg' className='s_click'> Click here <br />to sign up now.</Link></Heading>
 	</Box>
 
@@ -117,8 +119,8 @@ and responsibly.</Text>
 </Box>
 
 
-<Text lineHeight='2.5rem' mb='1rem'>I know someone like you may reason within you that if a webinar is that cheap, it
-simply means it will be of little or no value. Yes, I have heard that from one of the
+<Text lineHeight='2.5rem' mb='1rem'>I am sure you might be wondering that if a webinar is that cheap, it simply means
+it will be of little or no value.</Text> <Text lineHeight='2.5rem' mb='1rem'>Yes, I have heard that from one of the
 participants in my previous editions. I am sure others had the same reservation
 while registering for my training, but didn’t voice it out to me. </Text>
 <Text lineHeight='2.5rem' mb='1rem'>
@@ -132,50 +134,73 @@ just a token compared to other webinars she had registered for before then.</Tex
 But to her amazement, she was wowed by the depth of value that she received
 from the training she paid a token fee for. Beyond the class, she still got further
 
-guide after the training. She concluded that it was wrong to judge the value of a
+guide after the training.</Text>
+<Text lineHeight='2.5rem' mb='1rem'> She concluded that it was wrong to judge the value of a
 training by the cost.</Text>
 <Text lineHeight='2.5rem' mb='1rem'>
-So, if you know that N1,000 cannot be compared with the amount you will pay for
+So, if you know that N1,500 cannot be compared with the amount you will pay for
 rehabilitating your child if you lose him or her to social media predators and
 vampires that are waiting to prey on them, then sign up for the course now.</Text>
 
 <Heading my='2rem'>Limited slots available.</Heading>
 
 <Heading my='2rem'>Caution:</Heading>
-<Text lineHeight='2.5rem' mb='1rem'><b>Please understand that this course is not for you if:</b></Text>
-<Box border='5px solid #fff9dd' bg='#FFFFE0' mx='-2rem' px='3rem' mb='2rem'>
+<Text lineHeight='2.5rem' mb='1rem'>Please <b>DON’T REGISTER </b>for this course I<b>IF</b>:</Text>
+<Box border='5px solid #F0FFF0' bg='#F0FFF0' mx='-2rem' px='3rem' mb='2rem'>
 	<UnorderedList my='2rem' listStyleType='square'>
 
 <b>
 				<ListItem mb='1rem' >You are a parent with closed mind; not open to learning, unlearning, and
 relearning</ListItem>
-<hr style={{height: '10px'}} />
+<hr  style={{height:"1px", backgroundColor: '#E6E6FA'}} />
 		<ListItem mb='1rem'>You are a parent that don’t believe in technology</ListItem>
-		<hr />
+		<hr  style={{height:"1px", backgroundColor: '#E6E6FA'}} />
 		<ListItem mb='1rem'>You are a parent that don’t believe social media has its gains</ListItem>
-		<hr />
+		<hr  style={{height:"1px", backgroundColor: '#E6E6FA'}} />
 		<ListItem mb='1rem'>You are a parent that prefers to control a child instead of building
 relationship with the child.</ListItem>
-<hr />
+<hr  style={{height:"1px", backgroundColor: '#E6E6FA'}} />
 <ListItem mb='1rem'>You are a parent that is not willing or ready to model the behavior you want
 your child to exhibit.</ListItem>
-<hr />
+<hr  style={{height:"1px", backgroundColor: '#E6E6FA'}} />
 <ListItem>You are a parent that wants overnight success…</ListItem>
 </b>
 	
 	</UnorderedList>
 </Box>
-<Text lineHeight='2.5rem' mb='1rem'>If you possess any of these traits, then don’t bother to register for this training.
-But if you are parent that has the well-being of the child at heart and wants to build
+<Text lineHeight='2.5rem' mb='1rem'>If you possess any of these traits, then don’t bother to register for this training.</Text>
+<Text lineHeight='2.5rem' mb='1rem'>But if you are parent that has the well-being of the child at heart and wants to build
 harmonious relationship with the child, then go ahead and register for the course
 now.</Text>
 
+<Heading my='2rem'>Here are some of the topics that will be treated at the webinar:</Heading>
+
+<Box border='5px solid #F0FFF0' bg='#F0FFF0' mx='-2rem' px='3rem' mb='2rem'>
+	<UnorderedList my='2rem' listStyleType='square'>
+
+<b>
+	<ListItem mb='1rem' >How to help your child overcome addiction to technology</ListItem>
+<hr  style={{height:"1px", backgroundColor: '#E6E6FA'}} />
+		<ListItem mb='1rem'>How to help your child develop healthy tech habits</ListItem>
+		<hr  style={{height:"1px", backgroundColor: '#E6E6FA'}} />
+		<ListItem mb='1rem'>Social media etiquette</ListItem>
+		<hr  style={{height:"1px", backgroundColor: '#E6E6FA'}} />
+		<ListItem mb='1rem'>Online safety,</ListItem>
+<hr  style={{height:"1px", backgroundColor: '#E6E6FA'}} />
+<ListItem mb='1rem'>And many more.</ListItem>
+<hr  style={{height:"1px", backgroundColor: '#E6E6FA'}} />
+<ListItem>You are a parent that wants overnight success…</ListItem>
+</b>
+	
+	</UnorderedList>
+</Box>
+
 <Box textAlign='center'>
-	<Heading w='90%' m='3rem auto' color='#CC0000' fontWeight='900' fontSize={{base:'2rem', lg: '4rem'}}> <Link to='https://selar.co/3wfg'>Click here now to be one of the participants of this transformative training.</Link></Heading>
+	<Heading w='90%' m='3rem auto' color='#808000' fontWeight='900' fontSize={{base:'2rem', lg: '4rem'}}> <Link to='https://selar.co/3wfg'>Click here now to be one of the participants of this transformative training.</Link></Heading>
 </Box>
 
 <Text lineHeight='2.5rem' mb='1rem' fontStyle='italic'>See you in class!</Text>
-<Text>I am <b>Phil Ikponmwosa</b></Text>
+<Text><b>Phil Ikponmwosa</b></Text>
 			</Box>
 		</Box>
 		</Box>
