@@ -11,7 +11,7 @@ function App() {
 			<ChakraProvider theme={theme}>
 				<Routes>
 					<Route
-						path="/parenting-webinar"
+						path="/"
 						element={
 							<PageWrapper>
 								<Home />

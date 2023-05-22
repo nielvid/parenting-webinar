@@ -7,18 +7,18 @@ import caution from '../../assets/images/caution.png'
 
 function Home() {
 	return (
-		<Box my='2rem' >
+		<Box>
 		
 			<Box>
-			<Box textAlign='center'  maxW={{base:'100%', md:'80%', lg:'50%'}} mx='auto' >
-				<Image src={Banner} alt='phil Ikponmwosa ' w='100%' objectFit='contain' />
+			<Box textAlign='center'  maxW={{base:'100%',  lg:'60%'}} mx='auto'>
+				<Image src={Banner} alt='phil Ikponmwosa' w='100%' />
 			</Box>
-			<Box textAlign='center' px={{ base: '5%', lg: '4%' }} bg='white' maxW={{base:'100%',md:'80%', lg:'50%'}} mx='auto'>
+			<Box textAlign='center' px={{ base: '5%', lg: '4%' }} bg='white' maxW={{base:'100%', lg:'60%'}} mx='auto'>
 			<Heading fontSize={{base: '2.7rem', md:'3.5rem', lg:'4.5rem'}} color='#95a014' fontWeight='900' py='3rem'>How I Became a Digital Parent….raising happy, healthy, and responsible digital children.</Heading>
 			</Box>
-			<Box  bg='white' fontSize='1.8rem'textAlign='justify'maxW={{base:'100%',md:'80%', lg:'50%'}}  mx='auto' py='3rem' px={{base:'3rem', lg:'6rem'}} border="2px solid rgba(68,85,103,.11)"
+			<Box  bg='white' fontSize='1.8rem'textAlign='justify'maxW={{base:'100%', lg:'60%'}}  mx='auto' py='3rem' px={{base:'3rem', lg:'6rem'}} border="2px solid rgba(68,85,103,.11)"
 			boxShadow='3px 3px 3px -2px #000'>
-				<Heading fontSize={{base: '1.8rem', md:'2rem', lg:'2rem'}} mb='3rem' py='2rem'>Here is what you can do…</Heading>
+				{/* <Heading fontSize={{base: '1.8rem', md:'2rem', lg:'2rem'}} mb='3rem' py='2rem'>Here is what you can do…</Heading> */}
 				<Text lineHeight={1.4} mb='1rem'> "As a busy mom, I felt like I was losing the battle of keeping my kids safe and
 healthy in the digital world.
 I felt like I was constantly struggling to keep up with the fast-paced world of social
@@ -53,10 +53,18 @@ Do you mind if I show you how to overcome these your worry, fears, and anxiety
 about your child’s safety in his or her interaction with social media and
 technology? Then sign up for my webinar,</Text>
 
-<Box textAlign='center'>
-	<Heading w='90%' m='3rem auto' color='#95a014' fontWeight='900' fontSize={{base:'2rem', lg: '4rem'}}> <Link to='https://selar.co/3wfg'>How to Raise Responsible and Resilient Kids in
+<Box w={{base:'100%', lg:'100%'}} m='3rem auto' textAlign='center'  >
+	<Box bg='#95a014' py='1rem'>
+		<Box textAlign='center'>
+	<Heading w='90%' m='3rem auto' color='#fff' fontWeight='900' fontSize={{base:'2rem', lg: '4rem'}}> <Link to='https://selar.co/3wfg' className='how'>How to Raise Responsible and Resilient Kids in
 the age of Social Media @ just N1,500</Link></Heading>
 </Box>
+	</Box>
+
+	
+</Box>
+
+
 <Text >Hey, hold it before you log out of this page!</Text>
 
 <Heading as='h6'  mt=' 4rem' mb='2rem' color="#0f2f3c" >Who am I for you to attend my webinar?</Heading>
