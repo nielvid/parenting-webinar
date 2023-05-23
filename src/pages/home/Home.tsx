@@ -157,7 +157,7 @@ vampires that are waiting to prey on them, then <Link to='https://selar.co/3wfg'
 
 {/* <Heading my='2rem'>Caution:</Heading> */}
 <Image src='https://cdn.cosmicjs.com/dfe80e00-f8f0-11ed-95b9-45823ba39773-caution.png' alt='Caution:' width='50%'/>
-<Text lineHeight='2.5rem' mb='1rem'>Please <b>DON’T REGISTER </b>for this course I<b>IF</b>:</Text>
+<Text lineHeight='2.5rem' mb='1rem'>Please <b>DON’T REGISTER </b>for this course <b>IF</b>:</Text>
 <Box border='5px solid #F0FFF0' bg='#F0FFF0' mx='-2rem' px='3rem' mb='2rem'>
 	<UnorderedList my='2rem' listStyleType='square'>
 
@@ -200,8 +200,6 @@ now.</Text>
 		<ListItem mb='1rem'>Online safety,</ListItem>
 <hr  style={{height:"1px", backgroundColor: '#E6E6FA'}} />
 <ListItem mb='1rem'>And many more.</ListItem>
-<hr  style={{height:"1px", backgroundColor: '#E6E6FA'}} />
-<ListItem>You are a parent that wants overnight success…</ListItem>
 </b>
 	
 	</UnorderedList>
