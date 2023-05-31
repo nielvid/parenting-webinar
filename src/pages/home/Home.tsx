@@ -1,6 +1,6 @@
 import { Box, Heading, Image, Text, UnorderedList, ListItem, } from '@chakra-ui/react'
 import { Link} from 'react-router-dom';
-import Im from '../../assets/im.jpeg'
+// import Im from '../../assets/im.jpeg'
 
 
 
