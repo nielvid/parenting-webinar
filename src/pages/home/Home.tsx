@@ -10,8 +10,8 @@ function Home() {
 		
 			<Box>
 			
-			<Box textAlign='center' px={{ base: '5%', lg: '4%' }} bg='white' maxW={{base:'100%', lg:'60%'}} mx='auto'>
-			<Heading fontSize={{base: '2.7rem', md:'3.5rem', lg:'4.5rem'}} color='#00304e' fontWeight='900' py='3rem'>How I Became a Digital Parent….raising happy, healthy, and responsible digital children.</Heading>
+			<Box textAlign='center' px={{ base: '5%', lg: '4%' }}bg='#00304e' maxW={{base:'100%', lg:'60%'}} mx='auto'>
+			<Heading fontSize={{base: '2.7rem', md:'3.5rem', lg:'4.5rem'}} color='white' fontWeight='900' py='3rem'>How I Became a Digital Parent….raising happy, healthy, and responsible digital children.</Heading>
 			</Box>
 			<Box  bg='white' fontSize='1.8rem'textAlign='justify'maxW={{base:'100%', lg:'60%'}}  mx='auto' py='3rem' px={{base:'3rem', lg:'6rem'}} border="2px solid rgba(68,85,103,.11)"
 			boxShadow='3px 3px 3px -2px #000'>
