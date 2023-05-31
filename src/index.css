@@ -14,10 +14,11 @@ html {
 
 a {
   text-decoration: none;
-  color: #000000
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
 }
 a:hover {
-  color: #6B8E23;
+  color:  magenta /* #6B8E23; */
 }
 .s_click:hover{
   color: yellow;
@@ -28,4 +29,7 @@ a:hover {
 
 ul{
       list-style-type: disc;
+}
+body{
+  font-family: 'Poppins', sans-serif;
 }
