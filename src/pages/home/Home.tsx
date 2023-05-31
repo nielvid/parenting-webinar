@@ -74,15 +74,18 @@ the age of Social Media @ just N1,500</Link></Heading>
 <Text>My name is <b>Phil Ikponmwosa.</b></Text>
 
 <Text lineHeight='2.5rem' mb='1rem'>
-	I am a Marketing Communication professional, a father of 1 Gen z, and 2 Gen.
-Alpha,</Text>
+	I am a parenting expert, Teen’s coach, and a Marketing Communication
+professional. Also, I am a father of 3 children (2 Gen. z &amp;1 Gen. Alpha).</Text>
+
 <Text lineHeight='2.5rem' mb='1rem'>
-In addition, I am a parenting and Teen’s coach.
-I have authored over 5 bestselling titles on parenting.
-I have been working with young people (Gen. Z) for over 2 decades counseling,
-mentoring, and guiding them to live a purposeful life.</Text>
-<Text lineHeight='2.5rem' mb='1rem'> Above all, I am extremely passionate about creating simple solutions to complex
-problems that most parents have with their teenagers.</Text>
+	<Text lineHeight='2.5rem' mb='1rem'>
+	I have been working with young people (Gen. Z) for over 2 decades, counseling,
+mentoring, and guiding them to live a purposeful and responsible life.</Text>
+
+<Text lineHeight='2.5rem' mb='1rem'></Text>
+Above all, I am extremely passionate about creating simple solutions to complex
+parenting problems, especially with issues most parents have with their teenagers.</Text>
+
 {/* <Text lineHeight='2.5rem' mb='1rem'>As you quite know, most of us, parents often have misunderstanding with our kids
 when they become teenagers and that has made a lot of teenagers to run away from
 home, joining bad gangs and wrong association.
@@ -100,7 +103,7 @@ valid, relatable, and practical solutions to the challenges of parenting, especi
 this digital age. My latest title, <b>Digital Parenting</b> is selling massively on Selar.co
 with numerous 5 star rating/reviews.</Text>
 
-<Heading my='2rem'>Here are some of the topics that will be treated at the webinar:</Heading>
+<Heading  mt='3rem' mb='2rem'>Here are some of the topics that will be treated at the webinar:</Heading>
 
 <Box border='5px solid #bcd4e6' bg='#bcd4e6' mx='-2rem' px='3rem' mb='2rem'>
 	<UnorderedList my='2rem' listStyleType='square'>
