@@ -82,10 +82,8 @@ I have authored over 5 bestselling titles on parenting.
 I have been working with young people (Gen. Z) for over 2 decades counseling,
 mentoring, and guiding them to live a purposeful life.</Text>
 <Text lineHeight='2.5rem' mb='1rem'> Above all, I am extremely passionate about creating simple solutions to complex
-problems that most parents have with their teenagers,
-I do that through my webinars, coaching sessions, and other digital products that I
-create for parents.</Text>
-<Text lineHeight='2.5rem' mb='1rem'>As you quite know, most of us, parents often have misunderstanding with our kids
+problems that most parents have with their teenagers.</Text>
+{/* <Text lineHeight='2.5rem' mb='1rem'>As you quite know, most of us, parents often have misunderstanding with our kids
 when they become teenagers and that has made a lot of teenagers to run away from
 home, joining bad gangs and wrong association.
 </Text>
@@ -95,7 +93,7 @@ age is in the area of managing their screen time and activities on the social me
 <Text lineHeight='2.5rem' mb='1rem'> However, as a Teen’s coach who understands teen’s culture, I have been able to
 successfully mediate to bring harmony between parents and their wards in this
 area. I have done that through a one-on-one session with both the parents and the
-teenagers respectfully.</Text>
+teenagers respectfully.</Text> */}
 <Text lineHeight='2.5rem' mb='1rem'>
 In addition, I have gone ahead to write and publish different titles that proffer
 valid, relatable, and practical solutions to the challenges of parenting, especially in
